@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
     <img className='navbar-img' src={gamingconsole} alt="" />
-    <div className="navbar-tag">Gameriod</div>
+    <div className="navbar-tag"><strong>AnyGames</strong></div>
     <div className="navbar-login"><a href='/'>login</a></div>
     </div>
   )

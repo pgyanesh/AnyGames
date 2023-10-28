@@ -6,6 +6,7 @@ const FirstPage = () => {
   return (
     <div>
       <Navbar/>
+      <hr/>
       <Hero/>
     </div>
   )
