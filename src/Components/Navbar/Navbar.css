@@ -4,7 +4,7 @@
     justify-content:space-between;
     position: relative;
     border-bottom: 1px solid rgb(83, 82, 82);
-    height: 100px;
+    height: 70px;
 }
 
 .navbar-img{
@@ -33,7 +33,7 @@
     margin-right: 10vw;
 }
 .navbar-logo h1{
-    font-size: 3vh;
+    font-size: 5vh;
     font-weight: 800;
 }
 

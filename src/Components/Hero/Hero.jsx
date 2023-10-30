@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero-content">
         <div className="hero-contentText">
-        <h1>EXPLORE</h1>
+        <h1>Explore</h1>
         <h4>Explore latest games and discounts</h4>
         <button className="hero-button">Shop now </button>
         </div>

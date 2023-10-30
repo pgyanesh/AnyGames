@@ -18,6 +18,36 @@
     width: 27vw;
     height: 60vh;
 }
+
+.gaming-tab:hover{
+    filter: blur(2px);
+    
+}
+
+.accessories-tab:hover{
+    filter: blur(2px);
+}
+.console-tab:hover{
+    filter:blur(2px);
+}
+
+.gaming-sec{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.tabs-link{
+    position: absolute;
+    padding: 3vh 3vw;
+    font-size: 2rem;
+    color: aliceblue;
+    opacity: 0;
+}
+.tabs-link:hover{
+    opacity: 1;
+}
+
  @media (max-width:600px) {
     .tabs-container{
         display: block;
