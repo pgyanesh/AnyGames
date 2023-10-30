@@ -1,0 +1,41 @@
+.tabs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8vw;
+    height: 75vh;
+}
+
+.gaming-tab{
+    width: 27vw;
+    height: 60vh;
+}
+.console-tab{
+    width: 27vw;
+    height: 60vh;
+}
+.accessories-tab{
+    width: 27vw;
+    height: 60vh;
+}
+ @media (max-width:600px) {
+    .tabs-container{
+        display: block;
+       
+    }
+    .gaming-tab{
+        display: block;
+        width: 86vw;
+        padding: 5vh 7vw;
+    }
+    .accessories-tab{
+        display: block;
+        width: 86vw;
+        padding: 5vh 7vw;
+    }
+    .console-tab{
+        display: block;
+        width: 86vw;
+        padding: 0vh 7vw;
+    }
+ }

@@ -1,7 +1,7 @@
 .hero-container{
     height: 87vh;
     width: 100%;
-    margin: 5vh 0vh;
+    margin-top: 3vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,15 +27,21 @@
     font-size: 3.2rem;
     font-weight: 900;
 }
-.hero-contentText button{
+.hero-button{
     padding: 1.2vh 1.2vw;
     font-size: 1.1em;
     margin-top: 5vh;
 }
+.hero-button:hover{
+    background-color:rgb(217, 214, 214);
+    cursor: pointer;
+}
+
 
 @media (max-width :600px) {
     .hero-container{
        display: flex;
+       height: 88vh;
        
     }
     .hero-content{
@@ -43,13 +49,13 @@
     }
     .hero-contentText{
         display: flex;
-    align-items: center;
-    font-size: 1rem;
-    padding-bottom: 8vh;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
+        align-items: flex-start;
+        font-size: 1rem;
+        padding-bottom: 8vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
         
         
     }
@@ -59,7 +65,11 @@
         flex-wrap: wrap;
       
     }
-    .hero-contentText button{
+    .hero-button{
         display: block;
+    }
+    .hero-button:hover{
+        background-color:rgb(217, 214, 214);
+        cursor: pointer;
     }
 }
