@@ -6,8 +6,7 @@ const FirstPage = () => {
   return (
     <div>
       <Navbar/>
-    
-      <Hero/>
+     <Hero/>
     </div>
   )
 }

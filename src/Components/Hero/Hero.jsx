@@ -1,18 +1,17 @@
-import React from 'react'
-import './Hero.css'
-import hero2 from './hero2.jpg'
+import React from "react";
+import "./Hero.css";
 const Hero = () => {
   return (
-    <div className='hero-container'>
-      <div className="hero-img ">
-        <img src={hero2} alt='hero'/>
-        <div className="hero-content layers">
-        <h1>Explore</h1>
-        <p>Explore new deals and new releases </p>
+    <div className="hero-container">
+      <div className="hero-content">
+        <div className="hero-contentText">
+        <h1>EXPLORE</h1>
+        <h4>Explore latest games and discounts</h4>
+        <button>Shop now</button>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
