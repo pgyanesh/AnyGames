@@ -1,7 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Register.css'
 import { Link } from 'react-router-dom'
 const Register = () => {
+    const[showPassword,setShowPassword]=useState(true)
+    const handleTogglePassword=()=>{
+      setShowPassword(!showPassword);
+    }
+  
   return (
     <div>
       <div className='register-container'>
@@ -12,9 +17,9 @@ const Register = () => {
         <div id="register-title"><h2>Register</h2></div>
         <input id='register-name' type='text' placeholder='Name'/>
         <input id='register-email' type='email' placeholder='Email'/>
-        <input id='register-password' type='password' placeholder='Password' />
+        <input id='register-password' type={showPassword?"password":"text"} onChange={handleTogglePassword}  placeholder='Password' />
         <div className="register-showPassword">
-        <input type='checkbox'/><p>Show password</p>
+        <input onChange={handleTogglePassword} type='checkbox'/><p>Show password</p>
         </div>
         <button id='register-button'>register</button>
         <div className="register-link">
