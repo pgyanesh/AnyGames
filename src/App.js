@@ -1,11 +1,13 @@
 import React from 'react'
-import FirstPage from './Pages/FirstPage/FirstPage'
+import LoginSignup from './Pages/LoginSignup/LoginSignup'
+// import FirstPage from './Pages/FirstPage/FirstPage'
 
 
 const App = () => {
   return (
     <div>
-     <FirstPage/>
+     {/* <FirstPage/> */}
+     <LoginSignup/>
     </div>
   )
 }
