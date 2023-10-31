@@ -1,5 +1,6 @@
 import React from 'react'
 import './Register.css'
+import { Link } from 'react-router-dom'
 const Register = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Register = () => {
         <h1>AnyGames</h1>
       </div>
       <div className="register-box">
-        <div id="register-title"><h2>register</h2></div>
+        <div id="register-title"><h2>Register</h2></div>
         <input id='register-name' type='text' placeholder='Name'/>
         <input id='register-email' type='email' placeholder='Email'/>
         <input id='register-password' type='password' placeholder='Password' />
@@ -17,7 +18,10 @@ const Register = () => {
         </div>
         <button id='register-button'>register</button>
         <div className="register-link">
-        <a href='/login'>Already have an account</a>
+        <div className="linkCon">
+            <p>Already have an account?</p>
+            <Link to='/login'>Login</Link>
+        </div>
         </div>
       </div>
     </div>

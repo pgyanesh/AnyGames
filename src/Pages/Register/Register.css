@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .register-box{
-    height: 50vh;
+    height: 70vh;
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -58,4 +58,9 @@
     color: rgb(108, 101, 101);
    
    font-size: 0.8rem;
+}
+.linkCon{
+    display: flex;
+    width: 21vw;
+    justify-content: space-around;
 }
