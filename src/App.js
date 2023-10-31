@@ -6,6 +6,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Register from './Pages/Register/Register';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Routes>
       <Route path='/' element={<FirstPage/>}/>
      <Route path='/login' element={ <LoginSignup/>}/>
-     
+     <Route path='/register' element={<Register/>}/>
      </Routes>
      </BrowserRouter>
     </div>
