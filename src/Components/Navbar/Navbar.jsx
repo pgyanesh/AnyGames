@@ -1,6 +1,7 @@
 import React from "react";
 import gamingconsole from "./gamingconsole.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar-container">
@@ -9,7 +10,7 @@ const Navbar = () => {
         <h1><strong>AnyGames</strong></h1>
       </div>
       <div className="navbar-login">
-        <a href="/">login</a>
+        <Link to="/login">login</Link>
       </div>
     </div>
   );
