@@ -5,7 +5,7 @@ import Hero from '../../Components/Hero/Hero'
 import Tabs from '../../Components/Tabs/Tabs'
 const FirstPage = () => {
   return (
-    <div>
+    <div className='container'>
       <Navbar/>
      <Hero/>
      <Tabs/>

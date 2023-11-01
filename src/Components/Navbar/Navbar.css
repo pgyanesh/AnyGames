@@ -5,7 +5,9 @@
     position: relative;
     border-bottom: 1px solid rgb(83, 82, 82);
     height: 70px;
-}
+    background:linear-gradient(to bottom, white, rgb(79, 77, 77))
+    
+    }
 
 .navbar-img{
     height: 60px;
@@ -13,6 +15,7 @@
     margin-left: 2vw;
     margin-top: 1vh;
     margin-right: 1vw;
+    
 }
 .navbar-logo{
     display: flex;
@@ -31,10 +34,12 @@
     font-weight: 50;
     align-items: center;
     margin-right: 10vw;
+    color: aliceblue;
 }
 .navbar-logo h1{
     font-size: 5vh;
-    font-weight: 800;
+    font-weight: 200;
+    color: aliceblue;
 }
 
 @media (max-width :600px) {
